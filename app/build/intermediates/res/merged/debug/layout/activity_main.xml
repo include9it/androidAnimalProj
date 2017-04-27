@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/grassbackground">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollY="0px">
+    <!--  android:fillViewport="true" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center"
+            android:id="@+id/activity_main_button_switch"
+            android:background="@drawable/grid"
+            android:layout_margin="@dimen/activity_details_margin" />
+
+        <Button
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_gravity="right"
+            android:id="@+id/activity_main_button_add"
+            android:background="@drawable/badd" />
+<!--
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_main_list_view"
+            android:layout_gravity="center"
+            android:scrollingCache="true"
+            android:overScrollMode="never"
+            android:longClickable="true"
+            android:divider="@null"
+            android:dividerHeight="5dp"
+            android:layout_marginRight="@dimen/activity_details_margin"
+            android:layout_marginLeft="@dimen/activity_details_margin"
+            android:layout_marginBottom="@dimen/activity_details_margin">
+        </ListView>
+-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/activity_main_layout_list"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/activity_details_margin"
+            android:layout_marginLeft="@dimen/activity_details_margin"
+            android:layout_marginBottom="@dimen/activity_details_margin"
+            android:longClickable="true">
+        </LinearLayout>
+
+
+        <!--<GridView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/activity_main_grid_view"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:scrollingCache="true"-->
+            <!--android:overScrollMode="never"-->
+            <!--android:longClickable="true"-->
+            <!--android:numColumns="2"-->
+            <!--android:stretchMode="columnWidth"-->
+            <!--android:layout_marginRight="@dimen/activity_details_margin"-->
+            <!--android:layout_marginLeft="@dimen/activity_details_margin"-->
+            <!--android:layout_marginBottom="@dimen/activity_details_margin"-->
+            <!--android:visibility="gone">-->
+        <!--</GridView>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/activity_main_layout_grid"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/activity_details_margin"
+            android:layout_marginLeft="@dimen/activity_details_margin"
+            android:layout_marginBottom="@dimen/activity_details_margin"
+            android:visibility="gone"
+            android:longClickable="true">
+        </LinearLayout>
+
+        <com.example.ebutorins.animalaplication.customViews.InfoEverywhereView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        </com.example.ebutorins.animalaplication.customViews.InfoEverywhereView>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>

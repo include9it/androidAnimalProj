@@ -1,0 +1,19 @@
+#Sat Apr 22 13:20:24 EEST 2017
+renamed.5=classes4.dex
+renamed.4=classes2.dex
+renamed.3=classes6.dex
+renamed.2=classes.dex
+renamed.1=classes3.dex
+renamed.0=classes5.dex
+base.5=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_fc06d18b2cb0fda80c94bd900320fcc96aba106d
+base.4=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_4095e30940953c7f77f2a5aef2f72beacbb32077
+base.3=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-23.3.0_eda8177064a83289d036dcee759a22b206d33356
+base.2=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_131049fedbada68afab1fc6b78f9ccc6b3891a72
+base.1=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_f3f0190e7a802828a0bdf60a4ab575e5e7918396
+base.0=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-23.3.0_55376e98393b0d84a0306e362187654f390b845e
+file.5=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_fc06d18b2cb0fda80c94bd900320fcc96aba106d\\classes.dex
+file.4=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_4095e30940953c7f77f2a5aef2f72beacbb32077\\classes.dex
+file.3=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-23.3.0_eda8177064a83289d036dcee759a22b206d33356\\classes.dex
+file.2=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_131049fedbada68afab1fc6b78f9ccc6b3891a72\\classes.dex
+file.1=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_f3f0190e7a802828a0bdf60a4ab575e5e7918396\\classes.dex
+file.0=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-23.3.0_55376e98393b0d84a0306e362187654f390b845e\\classes.dex

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Animal Aplication</string>
+
+    <string name="fragment_details_table_row_text_kind_of_animals">Kind of animals: %s</string>
+    <string name="fragment_details_table_row_text_habitat">Habitat: %s</string>
+    <string name="fragment_details_table_row_text_quantity_tines">Quantity tines: %s</string>
+    <string name="fragment_details_table_row_horns">Horns: %s</string>
+    <string name="fragment_details_table_no_horns">No horns</string>
+    <string name="fragment_details_table_have_horns">Have horns</string>
+    <string name="fragment_details_table_row_text_weight">Weight: %s</string>
+
+    <string name="add_animal_activity_kind_of_animals">Kind of animals: </string>
+    <string name="add_animal_activity_habitat">Habitat: </string>
+    <string name="add_animal_activity_quantity_tines">Quantity tines: </string>
+    <string name="add_animal_activity_horns">Horns: </string>
+    <string name="add_animal_activity_weight">Weight: </string>
+</resources>

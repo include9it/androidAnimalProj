@@ -1,0 +1,7 @@
+#Thu Mar 16 11:00:39 EET 2017
+base.0=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3b2b82dccc45d35be67ff7397bedb64867eea6cc
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4afb82b97cd47ae05eb4e1a74b29895736128335\\classes.dex
+base.1=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4afb82b97cd47ae05eb4e1a74b29895736128335
+file.0=C\:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3b2b82dccc45d35be67ff7397bedb64867eea6cc\\classes.dex

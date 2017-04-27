@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="30"
+    android:background="@color/black_opacity_15"
+    android:id="@+id/fragment_details_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center|top"
+        android:layout_weight="25"
+        android:layout_margin="@dimen/activity_details_margin">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_details_image"
+            android:layout_weight="5"
+            android:layout_margin="@dimen/activity_details_margin"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_details_table_row_text_left_kind_of_animals"
+                android:layout_margin="@dimen/activity_details_margin"
+                android:textColor="@color/colorAmber"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_details_table_row_text_left_habitat"
+                android:layout_margin="@dimen/activity_details_margin"
+                android:textColor="@color/colorAmber"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_details_table_row_text_left_quantity_tines"
+                android:layout_margin="@dimen/activity_details_margin"
+                android:textColor="@color/colorAmber"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_details_table_row_text_left_horns"
+                android:layout_margin="@dimen/activity_details_margin"
+                android:textColor="@color/colorAmber"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_details_table_row_text_left_weight"
+                android:layout_margin="@dimen/activity_details_margin"
+                android:textColor="@color/colorAmber"
+                android:layout_weight="1"/>
+
+</LinearLayout>

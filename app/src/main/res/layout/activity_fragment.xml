@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/grassbackground">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_fragment_container"
+            android:layout_margin="@dimen/activity_details_margin">
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <com.example.ebutorins.animalaplication.customViews.InfoEverywhereView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"></com.example.ebutorins.animalaplication.customViews.InfoEverywhereView>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/roundbutton"
+        android:background="@drawable/backbutton"
+        android:id="@+id/activity_fragmnet_button"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="@dimen/activity_details_margin"/>
+
+</LinearLayout>
