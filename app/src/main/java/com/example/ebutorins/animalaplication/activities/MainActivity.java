@@ -35,9 +35,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     MyDialogFragment newFragment;
 
     @Override
+    protected void onPause() {
+        super.onPause();
+
+    }
+
+    @Override
     protected void onResume() {
         super.onResume();
-        
+
 //        listAdapter.notifyDataSetChanged();
 //        listView.refreshDrawableState();
     }
@@ -56,6 +62,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         button.setOnClickListener(this);
         bAdd.setOnClickListener(this);
+
+
 
 //        listAdapter = new ListAdapter(DataManager.getInstance().getAnimalses(),this);
 //        listView.setAdapter(listAdapter);

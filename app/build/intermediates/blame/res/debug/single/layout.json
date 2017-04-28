@@ -36,16 +36,16 @@
         "source": "C:\\Users\\aloid\\.android\\build-cache\\b7992f95e0243660dd11c02968867a0828beb5a5\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\aloid\\.android\\build-cache\\b7992f95e0243660dd11c02968867a0828beb5a5\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\like_list_item.xml",
+        "source": "C:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\src\\main\\res\\layout\\like_list_item.xml"
     },
     {
         "merged": "C:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\aloid\\.android\\build-cache\\b7992f95e0243660dd11c02968867a0828beb5a5\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\like_list_item.xml",
-        "source": "C:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\src\\main\\res\\layout\\like_list_item.xml"
+        "merged": "C:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\aloid\\.android\\build-cache\\b7992f95e0243660dd11c02968867a0828beb5a5\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\aloid\\Desktop\\Android\\AnimalAplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_big_image.xml",

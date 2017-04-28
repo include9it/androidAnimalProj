@@ -1,6 +1,8 @@
 package com.example.ebutorins.animalaplication.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -18,8 +20,10 @@ import java.util.List;
 /**
  * Created by ebutorins on 5/12/2016.
  */
-public class BigImageFragment extends Fragment implements View.OnClickListener {
+public class BigImageFragment extends Fragment implements View.OnClickListener, View.OnLongClickListener {
 
+
+    static int REQUEST_IMAGE_CAPTURE;
 
     List<Animals> animalses;
     ImageView imageView;
@@ -36,11 +40,13 @@ public class BigImageFragment extends Fragment implements View.OnClickListener {
         textView = (TextView) view.findViewById(R.id.fragment_big_image_text);
 
         int position = getArguments().getInt("PossFragment");
+        REQUEST_IMAGE_CAPTURE = getArguments().getInt("REQUEST_IMAGE_CAPTURE");
 
         imageView.setBackgroundResource(animalses.get(position).getImageId());
         textView.setText(animalses.get(position).getKindOfAnimal());
 
         imageView.setOnClickListener(this);
+        imageView.setOnLongClickListener(this);
 
         return view;
     }
@@ -57,4 +63,23 @@ public class BigImageFragment extends Fragment implements View.OnClickListener {
                 break;
         }
     }
+
+
+    @Override
+    public boolean onLongClick(View view) {
+        int id = view.getId();
+
+        if(R.id.fragment_big_image_image == id){
+
+                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                if (takePictureIntent.resolveActivity(getContext().getPackageManager()) != null) {
+                    startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+                }
+
+        }
+        return false;
+    }
+
+
+
 }

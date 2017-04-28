@@ -2,22 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\aloid\.android\build-cache\f6ced574d8778bbdc5b4df3463f18f9e1713276d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc06d18b2cb0fda80c94bd900320fcc96aba106d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\aloid\.android\build-cache\c23e82738b6c9f3279e8a3fc4af4e467657aeb0a\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3f0190e7a802828a0bdf60a4ab575e5e7918396\classes.dex" />
+        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\pre-dexed\debug\classes_f3f0190e7a802828a0bdf60a4ab575e5e7918396.jar" />
     </item>
     <item
         is-multidex="true"
@@ -25,17 +16,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ae08d9fca430b18ec176714c8f08b4b1a8b6207a">
+        sha1="3b1cf6915d818f33952f7540ba9e0d6c8586c551">
         <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4afb82b97cd47ae05eb4e1a74b29895736128335\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\aloid\.android\build-cache\dcb145420562aede372dd004bdacf4aa96a23f44\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4095e30940953c7f77f2a5aef2f72beacbb32077\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -47,22 +29,49 @@
         <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3b2b82dccc45d35be67ff7397bedb64867eea6cc\classes.dex" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\aloid\.android\build-cache\f6ced574d8778bbdc5b4df3463f18f9e1713276d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\pre-dexed\debug\classes_fc06d18b2cb0fda80c94bd900320fcc96aba106d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\aloid\.android\build-cache\f6ced574d8778bbdc5b4df3463f18f9e1713276d\output\jars\libs\internal_impl-23.3.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_55376e98393b0d84a0306e362187654f390b845e\classes.dex" />
+        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_55376e98393b0d84a0306e362187654f390b845e.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\aloid\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_eda8177064a83289d036dcee759a22b206d33356.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\aloid\.android\build-cache\dcb145420562aede372dd004bdacf4aa96a23f44\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\pre-dexed\debug\classes_4095e30940953c7f77f2a5aef2f72beacbb32077.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\aloid\.android\build-cache\b7992f95e0243660dd11c02968867a0828beb5a5\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_131049fedbada68afab1fc6b78f9ccc6b3891a72\classes.dex" />
+        <dex dex="C:\Users\aloid\Desktop\Android\AnimalAplication\app\build\intermediates\pre-dexed\debug\classes_131049fedbada68afab1fc6b78f9ccc6b3891a72.jar" />
     </item>
 
 </items>

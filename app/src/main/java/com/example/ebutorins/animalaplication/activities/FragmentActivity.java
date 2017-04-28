@@ -1,9 +1,12 @@
 package com.example.ebutorins.animalaplication.activities;
 
+import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.example.ebutorins.animalaplication.fragments.BigImageFragment;
 import com.example.ebutorins.animalaplication.fragments.DetailsFragment;
@@ -11,6 +14,8 @@ import com.example.ebutorins.animalaplication.R;
 
 public class FragmentActivity extends android.support.v4.app.FragmentActivity implements View.OnClickListener, DetailsFragment.OnHeadlineSelectedListener {
 
+
+    static final int REQUEST_IMAGE_CAPTURE = 1;
 
     ImageButton button;
     DetailsFragment detailsFragment;
@@ -65,6 +70,7 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity im
 
         Bundle args = new Bundle();
         args.putInt("PossFragment", position);
+        args.putInt("REQUEST_IMAGE_CAPTURE", REQUEST_IMAGE_CAPTURE);
         bigImageFragment.setArguments(args);
 
         step = true;
@@ -73,5 +79,15 @@ public class FragmentActivity extends android.support.v4.app.FragmentActivity im
         transaction.replace(R.id.activity_fragment_container, bigImageFragment);
         transaction.addToBackStack(null);
         transaction.commit();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        ImageView mImageView = (ImageView)findViewById(R.id.fragment_big_image_image);
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            Bundle extras = data.getExtras();
+            Bitmap imageBitmap = (Bitmap) extras.get("data");
+            mImageView.setImageBitmap(imageBitmap);
+        }
     }
 }
